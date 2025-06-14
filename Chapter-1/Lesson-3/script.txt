@@ -1,0 +1,112 @@
+use sampledatabase;
+
+create table users (
+ID int not null primary key ,
+name varchar(50) not null,
+age int,
+email varchar(50) not null unique,
+createOn date default CurDate(),
+check (age >= 18)
+)
+
+select * from users;
+
+-- try this to check age condition
+-- insert into users values(1, "alina", 15, "admin@gmail.com", "10-10-25")
+
+insert into users values(1, "alina", 20, "admin@gmail.com", "10-10-25")
+
+insert into users values(2, "alex", 21, "alex@gmail.com", "10-10-25")
+
+-- try this, for default case error
+-- insert into users values(2, "alex", 21, "alex@gmail.com")
+
+insert into users(ID, name, age, email) values(3, "alaya", 21, "alaya@gmail.com")
+
+-- try this to check for not null 
+-- insert into users values(null, "alex", 21, "alex@gmail.com", "10-10-25")
+
+show index from users;
+
+select name from users where ID=3
+
+drop table users;
+
+-- creating auto increment id
+create table users (
+ID int not null primary key auto_increment,
+name varchar(50) not null,
+age int,
+email varchar(50) not null unique,
+createOn date default CurDate(),
+check (age >= 18)
+)
+
+select * from users;
+
+insert into users(name, age, email) values("alaya", 21, "alaya@gmail.com")
+
+insert into users(name, age, email) values("alex", 21, "alex@gmail.com")
+
+-- alter
+-- to add column later
+alter table users
+add mobileNo varchar(10)
+
+-- remove column
+alter table users
+drop column mobileNo
+
+-- modify column
+alter table users
+modify column age tinyint
+
+-- drop constraint
+alter table users 
+drop constraint CONSTRAINT_1
+
+-- adding contraint
+alter table users
+add constraint ageContraint
+check (age >= 18)
+
+use sample;
+
+select * from employees
+select * from orders
+select * from customers
+select * from products
+select * from categories
+
+-- select all the distinct name
+select distinct first_name from customers
+
+-- order by alphabetically (asc is by default)
+select *  from customers order by first_name;
+
+-- order by alphabetically desc
+select *  from customers order by first_name desc;
+
+-- order by 2 columns
+select *  from customers order by first_name, last_name;
+
+-- limit the data
+select * from customers limit 5
+
+select *  from customers order by first_name limit 5;
+
+select *  from customers order by first_name desc limit 5;
+
+-- select 4 records after 5th record
+select * from customers limit 4 offset 5;
+
+
+
+
+
+
+
+
+
+
+
