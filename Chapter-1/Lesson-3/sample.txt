@@ -1,0 +1,242 @@
+CREATE TABLE employee (
+    employee_id INT PRIMARY KEY AUTO_INCREMENT,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    position VARCHAR(100),
+    hire_date DATE
+);
+
+INSERT INTO employee (first_name, last_name, position, hire_date) VALUES
+('John', 'Doe', 'Manager', '2020-01-15'),
+('Jane', 'Smith', 'Developer', '2021-06-23'),
+('Alice', 'Johnson', 'Sales', '2019-08-10'),
+('Bob', 'Williams', 'HR', '2018-02-05'),
+('Charlie', 'Brown', 'Support', '2020-11-30'),
+('David', 'Jones', 'Developer', '2017-07-11'),
+('Eve', 'Davis', 'Marketing', '2021-04-22'),
+('Frank', 'Miller', 'CTO', '2015-09-13'),
+('Grace', 'Wilson', 'CEO', '2010-12-20'),
+('Hank', 'Moore', 'Product Manager', '2019-03-10'),
+('Ivy', 'Taylor', 'Lead Developer', '2021-10-12'),
+('Jack', 'Anderson', 'Intern', '2022-01-06'),
+('Kathy', 'Thomas', 'Accountant', '2018-05-15'),
+('Louis', 'Jackson', 'Customer Support', '2019-12-11'),
+('Maria', 'White', 'Developer', '2020-06-03'),
+('Nathan', 'Harris', 'Marketing Lead', '2017-09-18'),
+('Olivia', 'Clark', 'Designer', '2021-07-04'),
+('Paul', 'Lewis', 'Sales Lead', '2021-02-01'),
+('Quinn', 'Young', 'HR Assistant', '2022-03-14'),
+('Rachel', 'King', 'Product Designer', '2021-05-23'),
+('Steve', 'Scott', 'Project Manager', '2016-04-17'),
+('Tina', 'Adams', 'Account Manager', '2019-01-21'),
+('Uma', 'Baker', 'Operations', '2020-09-15'),
+('Victor', 'Gonzalez', 'QA Engineer', '2018-10-19'),
+('Wendy', 'Carter', 'Business Analyst', '2022-02-10'),
+('Xander', 'Mitchell', 'Security', '2021-08-05'),
+('Yara', 'Perez', 'Legal', '2016-12-14'),
+('Zane', 'Roberts', 'DevOps Engineer', '2017-11-20');
+
+
+
+CREATE TABLE users (
+    user_id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50) UNIQUE,
+    password VARCHAR(100),
+    email VARCHAR(100),
+    last_login TIMESTAMP
+);
+
+INSERT INTO users (username, password, email, last_login) VALUES
+('john_doe', 'password123', 'john.doe@example.com', '2025-01-11 08:00:00'),
+('jane_smith', 'password456', 'jane.smith@example.com', '2025-01-11 08:05:00'),
+('alice_johnson', 'password789', 'alice.johnson@example.com', '2025-01-11 08:10:00'),
+('bob_williams', 'password321', 'bob.williams@example.com', '2025-01-11 08:15:00'),
+('charlie_brown', 'password987', 'charlie.brown@example.com', '2025-01-11 08:20:00'),
+('david_jones', 'password654', 'david.jones@example.com', '2025-01-11 08:25:00'),
+('eve_davis', 'password159', 'eve.davis@example.com', '2025-01-11 08:30:00'),
+('frank_miller', 'password753', 'frank.miller@example.com', '2025-01-11 08:35:00'),
+('grace_wilson', 'password852', 'grace.wilson@example.com', '2025-01-11 08:40:00'),
+('hank_moore', 'password963', 'hank.moore@example.com', '2025-01-11 08:45:00'),
+('ivy_taylor', 'password741', 'ivy.taylor@example.com', '2025-01-11 08:50:00'),
+('jack_anderson', 'password258', 'jack.anderson@example.com', '2025-01-11 08:55:00'),
+('kathy_thomas', 'password369', 'kathy.thomas@example.com', '2025-01-11 09:00:00'),
+('louis_jackson', 'password147', 'louis.jackson@example.com', '2025-01-11 09:05:00'),
+('maria_white', 'password258', 'maria.white@example.com', '2025-01-11 09:10:00'),
+('nathan_harris', 'password369', 'nathan.harris@example.com', '2025-01-11 09:15:00'),
+('olivia_clark', 'password741', 'olivia.clark@example.com', '2025-01-11 09:20:00'),
+('paul_lewis', 'password852', 'paul.lewis@example.com', '2025-01-11 09:25:00'),
+('quinn_young', 'password963', 'quinn.young@example.com', '2025-01-11 09:30:00'),
+('rachel_king', 'password654', 'rachel.king@example.com', '2025-01-11 09:35:00'),
+('steve_scott', 'password123', 'steve.scott@example.com', '2025-01-11 09:40:00'),
+('tina_adams', 'password456', 'tina.adams@example.com', '2025-01-11 09:45:00'),
+('uma_baker', 'password789', 'uma.baker@example.com', '2025-01-11 09:50:00'),
+('victor_gonzalez', 'password321', 'victor.gonzalez@example.com', '2025-01-11 09:55:00'),
+('wendy_carter', 'password987', 'wendy.carter@example.com', '2025-01-11 10:00:00'),
+('xander_mitchell', 'password654', 'xander.mitchell@example.com', '2025-01-11 10:05:00'),
+('yara_perez', 'password852', 'yara.perez@example.com', '2025-01-11 10:10:00'),
+('zane_roberts', 'password963', 'zane.roberts@example.com', '2025-01-11 10:15:00');
+
+
+CREATE TABLE orders (
+    order_id INT PRIMARY KEY AUTO_INCREMENT,
+    customer_id INT,
+    order_date DATE,
+    order_status VARCHAR(50),
+    total_amount DECIMAL(10, 2),
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+INSERT INTO orders (customer_id, order_date, order_status, total_amount) VALUES
+(1, '2025-01-05', 'Shipped', 150.75),
+(2, '2025-01-06', 'Pending', 200.00),
+(3, '2025-01-07', 'Completed', 99.99),
+(4, '2025-01-08', 'Shipped', 130.45),
+(5, '2025-01-09', 'Cancelled', 250.00),
+(6, '2025-01-10', 'Pending', 75.00),
+(7, '2025-01-05', 'Completed', 180.25),
+(8, '2025-01-06', 'Shipped', 320.10),
+(9, '2025-01-07', 'Shipped', 215.60),
+(10, '2025-01-08', 'Completed', 100.00),
+(11, '2025-01-09', 'Cancelled', 125.00),
+(12, '2025-01-10', 'Shipped', 170.50),
+(13, '2025-01-11', 'Pending', 45.30),
+(14, '2025-01-12', 'Completed', 150.20),
+(15, '2025-01-13', 'Pending', 300.00),
+(16, '2025-01-14', 'Shipped', 205.50),
+(17, '2025-01-15', 'Completed', 99.90),
+(18, '2025-01-16', 'Cancelled', 400.00),
+(19, '2025-01-17', 'Pending', 50.00),
+(20, '2025-01-18', 'Shipped', 210.75),
+(21, '2025-01-19', 'Completed', 150.00),
+(22, '2025-01-20', 'Shipped', 230.00),
+(23, '2025-01-21', 'Pending', 175.50),
+(24, '2025-01-22', 'Completed', 300.25),
+(25, '2025-01-23', 'Cancelled', 125.00),
+(26, '2025-01-24', 'Shipped', 220.00),
+(27, '2025-01-25', 'Pending', 55.10),
+(28, '2025-01-26', 'Completed', 190.50),
+(29, '2025-01-27', 'Shipped', 100.00),
+(30, '2025-01-28', 'Shipped', 330.25);
+
+
+CREATE TABLE category (
+    category_id INT PRIMARY KEY AUTO_INCREMENT,
+    category_name VARCHAR(100)
+);
+
+INSERT INTO category (category_name) VALUES
+('Electronics'),
+('Clothing'),
+('Furniture'),
+('Beauty & Health'),
+('Sports & Outdoors'),
+('Toys & Games'),
+('Books'),
+('Food & Beverages'),
+('Automotive'),
+('Home Improvement'),
+('Music & Movies'),
+('Office Supplies'),
+('Pets'),
+('Baby Products'),
+('Jewelry & Watches'),
+('Gifts'),
+('Hobbies & Crafts'),
+('Tools & Equipment'),
+('Gaming'),
+('Computers'),
+('Smartphones'),
+('Cameras'),
+('Appliances'),
+('Luggage & Bags'),
+('Arts & Crafts'),
+('Home Decor'),
+('Camping & Hiking'),
+('Stationery'),
+('DIY'),
+('Gardening'),
+('Musical Instruments');
+
+
+CREATE TABLE products (
+    product_id INT PRIMARY KEY AUTO_INCREMENT,
+    product_name VARCHAR(100),
+    category_id INT,
+    price DECIMAL(10, 2),
+    stock_quantity INT,
+    FOREIGN KEY (category_id) REFERENCES category(category_id)
+);
+
+INSERT INTO products (product_name, category_id, price, stock_quantity) VALUES
+('Smartphone', 20, 699.99, 50),
+('T-shirt', 2, 19.99, 100),
+('Sofa', 3, 499.99, 30),
+('Shampoo', 4, 9.99, 200),
+('Basketball', 5, 29.99, 80),
+('Lego Set', 6, 49.99, 150),
+('Novel', 7, 15.99, 120),
+('Juice', 8, 3.50, 500),
+('Car Battery', 9, 119.99, 40),
+('Drill', 10, 129.99, 60),
+('Headphones', 11, 199.99, 70),
+('Printer', 12, 89.99, 50),
+('Dog Food', 13, 25.00, 200),
+('Baby Stroller', 14, 250.00, 35),
+('Watch', 15, 199.99, 50),
+('Gift Card', 16, 25.00, 100),
+('Painting Supplies', 17, 30.00, 80),
+('Electric Saw', 18, 89.99, 40),
+('Game Console', 19, 399.99, 20),
+('Laptop', 20, 899.99, 40),
+('Digital Camera', 21, 249.99, 60),
+('Air Conditioner', 22, 599.99, 25),
+('Luggage', 23, 120.00, 80),
+('Drawing Kit', 24, 50.00, 40),
+('Tent', 25, 100.00, 60),
+('Notebook', 26, 4.99, 300),
+('Hammer', 27, 12.99, 100),
+('Gloves', 28, 9.99, 150),
+('Frying Pan', 29, 29.99, 200),
+('Guitar', 30, 149.99, 50);
+
+
+CREATE TABLE customers (
+    customer_id INT PRIMARY KEY AUTO_INCREMENT,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100),
+    phone VARCHAR(15),
+    address VARCHAR(200)
+);
+
+INSERT INTO customers (first_name, last_name, email, phone, address) VALUES
+('Michael', 'Anderson', 'michael.anderson@example.com', '555-0101', '123 Main St, Anytown, USA'),
+('Sarah', 'Brown', 'sarah.brown@example.com', '555-0102', '456 Oak St, Anytown, USA'),
+('John', 'Taylor', 'john.taylor@example.com', '555-0103', '789 Pine St, Anytown, USA'),
+('Lisa', 'Williams', 'lisa.williams@example.com', '555-0104', '101 Maple St, Anytown, USA'),
+('David', 'Harris', 'david.harris@example.com', '555-0105', '202 Birch St, Anytown, USA'),
+('Emily', 'Clark', 'emily.clark@example.com', '555-0106', '303 Cedar St, Anytown, USA'),
+('James', 'Wilson', 'james.wilson@example.com', '555-0107', '404 Elm St, Anytown, USA'),
+('Elizabeth', 'Johnson', 'elizabeth.johnson@example.com', '555-0108', '505 Willow St, Anytown, USA'),
+('Robert', 'Martin', 'robert.martin@example.com', '555-0109', '606 Ash St, Anytown, USA'),
+('Sophia', 'Moore', 'sophia.moore@example.com', '555-0110', '707 Redwood St, Anytown, USA'),
+('Oliver', 'Anderson', 'oliver.anderson@example.com', '555-0111', '808 Magnolia St, Anytown, USA'),
+('Ava', 'Taylor', 'ava.taylor@example.com', '555-0112', '909 Maple St, Anytown, USA'),
+('Benjamin', 'Clark', 'benjamin.clark@example.com', '555-0113', '101 Oak St, Anytown, USA'),
+('Charlotte', 'Davis', 'charlotte.davis@example.com', '555-0114', '202 Cedar St, Anytown, USA'),
+('Ethan', 'White', 'ethan.white@example.com', '555-0115', '303 Pine St, Anytown, USA'),
+('Amelia', 'Roberts', 'amelia.roberts@example.com', '555-0116', '404 Birch St, Anytown, USA'),
+('William', 'Gonzalez', 'william.gonzalez@example.com', '555-0117', '505 Cedar St, Anytown, USA'),
+('Mia', 'Martinez', 'mia.martinez@example.com', '555-0118', '606 Elm St, Anytown, USA'),
+('Daniel', 'Harris', 'daniel.harris@example.com', '555-0119', '707 Maple St, Anytown, USA'),
+('Harper', 'Young', 'harper.young@example.com', '555-0120', '808 Redwood St, Anytown, USA'),
+('Lucas', 'Perez', 'lucas.perez@example.com', '555-0121', '909 Ash St, Anytown, USA'),
+('Ella', 'Miller', 'ella.miller@example.com', '555-0122', '101 Birch St, Anytown, USA'),
+('Jack', 'Taylor', 'jack.taylor@example.com', '555-0123', '202 Willow St, Anytown, USA'),
+('Sophie', 'Wilson', 'sophie.wilson@example.com', '555-0124', '303 Cedar St, Anytown, USA'),
+('Henry', 'Lopez', 'henry.lopez@example.com', '555-0125', '404 Pine St, Anytown, USA'),
+('Chloe', 'King', 'chloe.king@example.com', '555-0126', '505 Redwood St, Anytown, USA'),
+('Matthew', 'Scott', 'matthew.scott@example.com', '555-0127', '606 Maple St, Anytown, USA'),
+('Isabella', 'Adams', 'isabella.adams@example.com', '555-0128', '707 Pine St, Anytown, USA');
+
+
