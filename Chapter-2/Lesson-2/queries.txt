@@ -1,0 +1,48 @@
+show databases;
+
+
+use agile;
+db.createCollection("movies")
+show collections
+db.users.drop()
+
+Create
+db.users.insert({"name": "harry","age": "20"})
+db.users.insertOne({"name": "harry","age": "20", "hobbie":['music', 'reading'], "id": "1"})
+db.users.insertMany([{"name":"alina", "age":"23", "hobbie": ["music", "dancing"],"id": "2"},{"name":"alex", "age":"24", "hobbie": ["dancing"],"id": "3"}])
+
+repolace 
+db.users.insertOne({"name": "harry","age": "20", "hobbie":['music', 'reading'], "_id": "4"})
+
+read/retreive
+db.users.find()
+db.users.findOne()
+ db.users.find({}, {name: 1})
+db.users.find({}, {name: 1, _id: 0})
+db.users.find({name: "harry"})
+db.users.find({name: "harry"},{name: 1, age: 1})
+db.users.find({name: {$ne: "harry"}})
+ db.users.find({name: {$in: ["harry", "alex"]}})
+ db.users.find({"age": {$gte: "20"}})
+db.users.find({"age": {$gt: "20"}})
+db.users.find({"age": {$lt: "20"}})
+db.users.find({"age": {$lte: "23"}})
+db.users.find({name: {$ne: "harry"}}, {_id: 0, name: 1, age: 1})
+db.users.find().count()
+db.users.find({hobbie: ["dancing", "reading"]})
+
+
+Update
+ db.users.updateOne({"_id": "4"}, {$set: {"age": "30"}})
+db.users.updateOne({"name": "harry"}, {$set: {"age": "30"}})
+ db.users.updateMany({"name": "harry"}, {$set: {"age": "25"}})
+
+Delete
+db.users.deleteOne({"name": "harry"})
+db.users.deleteMany({"name": "harry"})
+db.users.deleteMany({"hobbie": "music"})
+db.users.deleteMany({"hobbie": {$in: ["dancing", "music"]}})
+
+
+
+
