@@ -1,0 +1,1414 @@
+[
+    {
+        "id": 1,
+        "title": "Movie 1",
+        "genres": [
+            "Fantasy",
+            "Horror"
+        ],
+        "language": "Hindi",
+        "director": "Martin Scorsese",
+        "lead_actor": "Brad Pitt",
+        "release_year": 1996,
+        "rating": 3.0,
+        "duration_minutes": 84
+    },
+    {
+        "id": 2,
+        "title": "Movie 2",
+        "genres": [
+            "Action",
+            "Fantasy",
+            "Thriller"
+        ],
+        "language": "Russian",
+        "director": "Bong Joon-ho",
+        "lead_actor": "Jennifer Lawrence",
+        "release_year": 1986,
+        "rating": 8.8,
+        "duration_minutes": 155
+    },
+    {
+        "id": 3,
+        "title": "Movie 3",
+        "genres": [
+            "Fantasy",
+            "Comedy",
+            "Sci-Fi"
+        ],
+        "language": "Korean",
+        "director": "Greta Gerwig",
+        "lead_actor": "Denzel Washington",
+        "release_year": 1994,
+        "rating": 5.9,
+        "duration_minutes": 110
+    },
+    {
+        "id": 4,
+        "title": "Movie 4",
+        "genres": [
+            "Fantasy",
+            "Comedy"
+        ],
+        "language": "Korean",
+        "director": "Christopher Nolan",
+        "lead_actor": "Jennifer Lawrence",
+        "release_year": 2023,
+        "rating": 5.6,
+        "duration_minutes": 111
+    },
+    {
+        "id": 5,
+        "title": "Movie 5",
+        "genres": [
+            "Comedy"
+        ],
+        "language": "German",
+        "director": "Martin Scorsese",
+        "lead_actor": "Scarlett Johansson",
+        "release_year": 2014,
+        "rating": 7.6,
+        "duration_minutes": 140
+    },
+    {
+        "id": 6,
+        "title": "Movie 6",
+        "genres": [
+            "Adventure"
+        ],
+        "language": "Hindi",
+        "director": "Guillermo del Toro",
+        "lead_actor": "Meryl Streep",
+        "release_year": 2009,
+        "rating": 2.1,
+        "duration_minutes": 151
+    },
+    {
+        "id": 7,
+        "title": "Movie 7",
+        "genres": [
+            "Animation",
+            "Sci-Fi"
+        ],
+        "language": "Italian",
+        "director": "Christopher Nolan",
+        "lead_actor": "Robert Downey Jr.",
+        "release_year": 1998,
+        "rating": 9.5,
+        "duration_minutes": 165
+    },
+    {
+        "id": 8,
+        "title": "Movie 8",
+        "genres": [
+            "Adventure"
+        ],
+        "language": "Japanese",
+        "director": "Sofia Coppola",
+        "lead_actor": "Leonardo DiCaprio",
+        "release_year": 1989,
+        "rating": 7.4,
+        "duration_minutes": 96
+    },
+    {
+        "id": 9,
+        "title": "Movie 9",
+        "genres": [
+            "Sci-Fi",
+            "Horror",
+            "Fantasy"
+        ],
+        "language": "Mandarin",
+        "director": "James Cameron",
+        "lead_actor": "Leonardo DiCaprio",
+        "release_year": 2011,
+        "rating": 7.1,
+        "duration_minutes": 170
+    },
+    {
+        "id": 10,
+        "title": "Movie 10",
+        "genres": [
+            "Drama",
+            "Animation"
+        ],
+        "language": "Hindi",
+        "director": "Guillermo del Toro",
+        "lead_actor": "Leonardo DiCaprio",
+        "release_year": 2015,
+        "rating": 8.6,
+        "duration_minutes": 165
+    },
+    {
+        "id": 11,
+        "title": "Movie 11",
+        "genres": [
+            "Thriller",
+            "Adventure",
+            "Horror"
+        ],
+        "language": "Italian",
+        "director": "Guillermo del Toro",
+        "lead_actor": "Scarlett Johansson",
+        "release_year": 2008,
+        "rating": 9.7,
+        "duration_minutes": 91
+    },
+    {
+        "id": 12,
+        "title": "Movie 12",
+        "genres": [
+            "Romance",
+            "Sci-Fi"
+        ],
+        "language": "German",
+        "director": "Sofia Coppola",
+        "lead_actor": "Cate Blanchett",
+        "release_year": 2001,
+        "rating": 3.2,
+        "duration_minutes": 95
+    },
+    {
+        "id": 13,
+        "title": "Movie 13",
+        "genres": [
+            "Adventure",
+            "Fantasy"
+        ],
+        "language": "Japanese",
+        "director": "Quentin Tarantino",
+        "lead_actor": "Tom Hanks",
+        "release_year": 2016,
+        "rating": 8.4,
+        "duration_minutes": 108
+    },
+    {
+        "id": 14,
+        "title": "Movie 14",
+        "genres": [
+            "Drama",
+            "Fantasy",
+            "Sci-Fi"
+        ],
+        "language": "Spanish",
+        "director": "Steven Spielberg",
+        "lead_actor": "Cate Blanchett",
+        "release_year": 2017,
+        "rating": 1.4,
+        "duration_minutes": 153
+    },
+    {
+        "id": 15,
+        "title": "Movie 15",
+        "genres": [
+            "Adventure",
+            "Drama",
+            "Comedy"
+        ],
+        "language": "French",
+        "director": "Sofia Coppola",
+        "lead_actor": "Denzel Washington",
+        "release_year": 2022,
+        "rating": 1.7,
+        "duration_minutes": 113
+    },
+    {
+        "id": 16,
+        "title": "Movie 16",
+        "genres": [
+            "Romance",
+            "Adventure",
+            "Drama"
+        ],
+        "language": "Korean",
+        "director": "Greta Gerwig",
+        "lead_actor": "Scarlett Johansson",
+        "release_year": 1986,
+        "rating": 9.6,
+        "duration_minutes": 159
+    },
+    {
+        "id": 17,
+        "title": "Movie 17",
+        "genres": [
+            "Action"
+        ],
+        "language": "Russian",
+        "director": "James Cameron",
+        "lead_actor": "Robert Downey Jr.",
+        "release_year": 2002,
+        "rating": 8.5,
+        "duration_minutes": 164
+    },
+    {
+        "id": 18,
+        "title": "Movie 18",
+        "genres": [
+            "Thriller"
+        ],
+        "language": "Hindi",
+        "director": "Bong Joon-ho",
+        "lead_actor": "Cate Blanchett",
+        "release_year": 2008,
+        "rating": 6.6,
+        "duration_minutes": 85
+    },
+    {
+        "id": 19,
+        "title": "Movie 19",
+        "genres": [
+            "Fantasy"
+        ],
+        "language": "German",
+        "director": "Hayao Miyazaki",
+        "lead_actor": "Leonardo DiCaprio",
+        "release_year": 2017,
+        "rating": 4.5,
+        "duration_minutes": 163
+    },
+    {
+        "id": 20,
+        "title": "Movie 20",
+        "genres": [
+            "Comedy",
+            "Thriller"
+        ],
+        "language": "Mandarin",
+        "director": "Martin Scorsese",
+        "lead_actor": "Jennifer Lawrence",
+        "release_year": 2002,
+        "rating": 8.5,
+        "duration_minutes": 135
+    },
+    {
+        "id": 21,
+        "title": "Movie 21",
+        "genres": [
+            "Horror",
+            "Fantasy",
+            "Thriller"
+        ],
+        "language": "English",
+        "director": "Martin Scorsese",
+        "lead_actor": "Robert Downey Jr.",
+        "release_year": 1990,
+        "rating": 4.9,
+        "duration_minutes": 154
+    },
+    {
+        "id": 22,
+        "title": "Movie 22",
+        "genres": [
+            "Drama",
+            "Horror",
+            "Romance"
+        ],
+        "language": "Korean",
+        "director": "Quentin Tarantino",
+        "lead_actor": "Jennifer Lawrence",
+        "release_year": 1986,
+        "rating": 3.3,
+        "duration_minutes": 115
+    },
+    {
+        "id": 23,
+        "title": "Movie 23",
+        "genres": [
+            "Comedy",
+            "Horror"
+        ],
+        "language": "English",
+        "director": "Hayao Miyazaki",
+        "lead_actor": "Tom Hanks",
+        "release_year": 2010,
+        "rating": 7.7,
+        "duration_minutes": 146
+    },
+    {
+        "id": 24,
+        "title": "Movie 24",
+        "genres": [
+            "Adventure",
+            "Horror"
+        ],
+        "language": "Mandarin",
+        "director": "Christopher Nolan",
+        "lead_actor": "Tom Hanks",
+        "release_year": 2009,
+        "rating": 5.5,
+        "duration_minutes": 84
+    },
+    {
+        "id": 25,
+        "title": "Movie 25",
+        "genres": [
+            "Sci-Fi",
+            "Drama"
+        ],
+        "language": "Japanese",
+        "director": "Bong Joon-ho",
+        "lead_actor": "Scarlett Johansson",
+        "release_year": 1986,
+        "rating": 5.2,
+        "duration_minutes": 154
+    },
+    {
+        "id": 26,
+        "title": "Movie 26",
+        "genres": [
+            "Thriller",
+            "Fantasy",
+            "Adventure"
+        ],
+        "language": "Korean",
+        "director": "Bong Joon-ho",
+        "lead_actor": "Robert Downey Jr.",
+        "release_year": 1981,
+        "rating": 10.0,
+        "duration_minutes": 92
+    },
+    {
+        "id": 27,
+        "title": "Movie 27",
+        "genres": [
+            "Comedy",
+            "Romance",
+            "Fantasy"
+        ],
+        "language": "Hindi",
+        "director": "Quentin Tarantino",
+        "lead_actor": "Jennifer Lawrence",
+        "release_year": 2014,
+        "rating": 3.5,
+        "duration_minutes": 144
+    },
+    {
+        "id": 28,
+        "title": "Movie 28",
+        "genres": [
+            "Adventure",
+            "Drama"
+        ],
+        "language": "Italian",
+        "director": "Bong Joon-ho",
+        "lead_actor": "Tom Hanks",
+        "release_year": 2017,
+        "rating": 1.0,
+        "duration_minutes": 94
+    },
+    {
+        "id": 29,
+        "title": "Movie 29",
+        "genres": [
+            "Comedy",
+            "Adventure"
+        ],
+        "language": "Mandarin",
+        "director": "Bong Joon-ho",
+        "lead_actor": "Natalie Portman",
+        "release_year": 2023,
+        "rating": 7.0,
+        "duration_minutes": 169
+    },
+    {
+        "id": 30,
+        "title": "Movie 30",
+        "genres": [
+            "Thriller",
+            "Comedy",
+            "Action"
+        ],
+        "language": "Italian",
+        "director": "Christopher Nolan",
+        "lead_actor": "Tom Hanks",
+        "release_year": 2007,
+        "rating": 8.7,
+        "duration_minutes": 83
+    },
+    {
+        "id": 31,
+        "title": "Movie 31",
+        "genres": [
+            "Comedy",
+            "Fantasy"
+        ],
+        "language": "English",
+        "director": "Martin Scorsese",
+        "lead_actor": "Robert Downey Jr.",
+        "release_year": 2014,
+        "rating": 4.4,
+        "duration_minutes": 105
+    },
+    {
+        "id": 32,
+        "title": "Movie 32",
+        "genres": [
+            "Sci-Fi",
+            "Drama"
+        ],
+        "language": "German",
+        "director": "James Cameron",
+        "lead_actor": "Natalie Portman",
+        "release_year": 2010,
+        "rating": 6.3,
+        "duration_minutes": 99
+    },
+    {
+        "id": 33,
+        "title": "Movie 33",
+        "genres": [
+            "Action"
+        ],
+        "language": "French",
+        "director": "Bong Joon-ho",
+        "lead_actor": "Brad Pitt",
+        "release_year": 2002,
+        "rating": 3.0,
+        "duration_minutes": 143
+    },
+    {
+        "id": 34,
+        "title": "Movie 34",
+        "genres": [
+            "Sci-Fi"
+        ],
+        "language": "Italian",
+        "director": "Hayao Miyazaki",
+        "lead_actor": "Leonardo DiCaprio",
+        "release_year": 2001,
+        "rating": 5.5,
+        "duration_minutes": 103
+    },
+    {
+        "id": 35,
+        "title": "Movie 35",
+        "genres": [
+            "Action",
+            "Romance",
+            "Horror"
+        ],
+        "language": "English",
+        "director": "Steven Spielberg",
+        "lead_actor": "Tom Hanks",
+        "release_year": 2004,
+        "rating": 6.9,
+        "duration_minutes": 117
+    },
+    {
+        "id": 36,
+        "title": "Movie 36",
+        "genres": [
+            "Adventure"
+        ],
+        "language": "Italian",
+        "director": "Guillermo del Toro",
+        "lead_actor": "Tom Hanks",
+        "release_year": 2020,
+        "rating": 2.7,
+        "duration_minutes": 150
+    },
+    {
+        "id": 37,
+        "title": "Movie 37",
+        "genres": [
+            "Thriller"
+        ],
+        "language": "German",
+        "director": "James Cameron",
+        "lead_actor": "Robert Downey Jr.",
+        "release_year": 2007,
+        "rating": 2.8,
+        "duration_minutes": 131
+    },
+    {
+        "id": 38,
+        "title": "Movie 38",
+        "genres": [
+            "Action",
+            "Drama"
+        ],
+        "language": "French",
+        "director": "Bong Joon-ho",
+        "lead_actor": "Tom Hanks",
+        "release_year": 2011,
+        "rating": 5.2,
+        "duration_minutes": 174
+    },
+    {
+        "id": 39,
+        "title": "Movie 39",
+        "genres": [
+            "Animation",
+            "Horror"
+        ],
+        "language": "Italian",
+        "director": "Christopher Nolan",
+        "lead_actor": "Denzel Washington",
+        "release_year": 2004,
+        "rating": 2.1,
+        "duration_minutes": 97
+    },
+    {
+        "id": 40,
+        "title": "Movie 40",
+        "genres": [
+            "Comedy",
+            "Thriller"
+        ],
+        "language": "Hindi",
+        "director": "Sofia Coppola",
+        "lead_actor": "Tom Hanks",
+        "release_year": 2012,
+        "rating": 3.5,
+        "duration_minutes": 162
+    },
+    {
+        "id": 41,
+        "title": "Movie 41",
+        "genres": [
+            "Drama",
+            "Action"
+        ],
+        "language": "English",
+        "director": "Christopher Nolan",
+        "lead_actor": "Jennifer Lawrence",
+        "release_year": 2023,
+        "rating": 2.9,
+        "duration_minutes": 139
+    },
+    {
+        "id": 42,
+        "title": "Movie 42",
+        "genres": [
+            "Fantasy"
+        ],
+        "language": "English",
+        "director": "Guillermo del Toro",
+        "lead_actor": "Meryl Streep",
+        "release_year": 1987,
+        "rating": 7.3,
+        "duration_minutes": 160
+    },
+    {
+        "id": 43,
+        "title": "Movie 43",
+        "genres": [
+            "Animation",
+            "Comedy"
+        ],
+        "language": "Japanese",
+        "director": "Christopher Nolan",
+        "lead_actor": "Scarlett Johansson",
+        "release_year": 1999,
+        "rating": 5.6,
+        "duration_minutes": 174
+    },
+    {
+        "id": 44,
+        "title": "Movie 44",
+        "genres": [
+            "Drama",
+            "Horror",
+            "Adventure"
+        ],
+        "language": "Japanese",
+        "director": "Hayao Miyazaki",
+        "lead_actor": "Brad Pitt",
+        "release_year": 1995,
+        "rating": 5.2,
+        "duration_minutes": 113
+    },
+    {
+        "id": 45,
+        "title": "Movie 45",
+        "genres": [
+            "Horror"
+        ],
+        "language": "Spanish",
+        "director": "Sofia Coppola",
+        "lead_actor": "Cate Blanchett",
+        "release_year": 2006,
+        "rating": 1.5,
+        "duration_minutes": 108
+    },
+    {
+        "id": 46,
+        "title": "Movie 46",
+        "genres": [
+            "Horror",
+            "Action",
+            "Fantasy"
+        ],
+        "language": "French",
+        "director": "Steven Spielberg",
+        "lead_actor": "Jennifer Lawrence",
+        "release_year": 1995,
+        "rating": 2.6,
+        "duration_minutes": 163
+    },
+    {
+        "id": 47,
+        "title": "Movie 47",
+        "genres": [
+            "Animation",
+            "Action",
+            "Drama"
+        ],
+        "language": "French",
+        "director": "Steven Spielberg",
+        "lead_actor": "Denzel Washington",
+        "release_year": 1983,
+        "rating": 5.8,
+        "duration_minutes": 104
+    },
+    {
+        "id": 48,
+        "title": "Movie 48",
+        "genres": [
+            "Fantasy",
+            "Action",
+            "Romance"
+        ],
+        "language": "Korean",
+        "director": "Steven Spielberg",
+        "lead_actor": "Denzel Washington",
+        "release_year": 1991,
+        "rating": 2.6,
+        "duration_minutes": 103
+    },
+    {
+        "id": 49,
+        "title": "Movie 49",
+        "genres": [
+            "Sci-Fi"
+        ],
+        "language": "Mandarin",
+        "director": "James Cameron",
+        "lead_actor": "Denzel Washington",
+        "release_year": 1989,
+        "rating": 7.2,
+        "duration_minutes": 117
+    },
+    {
+        "id": 50,
+        "title": "Movie 50",
+        "genres": [
+            "Thriller"
+        ],
+        "language": "French",
+        "director": "Quentin Tarantino",
+        "lead_actor": "Tom Hanks",
+        "release_year": 2008,
+        "rating": 5.2,
+        "duration_minutes": 147
+    },
+    {
+        "id": 51,
+        "title": "Movie 51",
+        "genres": [
+            "Comedy",
+            "Thriller"
+        ],
+        "language": "Russian",
+        "director": "Sofia Coppola",
+        "lead_actor": "Brad Pitt",
+        "release_year": 2015,
+        "rating": 9.2,
+        "duration_minutes": 109
+    },
+    {
+        "id": 52,
+        "title": "Movie 52",
+        "genres": [
+            "Sci-Fi"
+        ],
+        "language": "Russian",
+        "director": "Guillermo del Toro",
+        "lead_actor": "Leonardo DiCaprio",
+        "release_year": 1991,
+        "rating": 8.5,
+        "duration_minutes": 138
+    },
+    {
+        "id": 53,
+        "title": "Movie 53",
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "language": "Mandarin",
+        "director": "Martin Scorsese",
+        "lead_actor": "Jennifer Lawrence",
+        "release_year": 1983,
+        "rating": 6.8,
+        "duration_minutes": 168
+    },
+    {
+        "id": 54,
+        "title": "Movie 54",
+        "genres": [
+            "Romance",
+            "Animation",
+            "Adventure"
+        ],
+        "language": "Hindi",
+        "director": "Sofia Coppola",
+        "lead_actor": "Robert Downey Jr.",
+        "release_year": 2004,
+        "rating": 2.4,
+        "duration_minutes": 95
+    },
+    {
+        "id": 55,
+        "title": "Movie 55",
+        "genres": [
+            "Thriller",
+            "Fantasy"
+        ],
+        "language": "German",
+        "director": "Quentin Tarantino",
+        "lead_actor": "Denzel Washington",
+        "release_year": 2024,
+        "rating": 7.5,
+        "duration_minutes": 160
+    },
+    {
+        "id": 56,
+        "title": "Movie 56",
+        "genres": [
+            "Sci-Fi"
+        ],
+        "language": "Japanese",
+        "director": "Bong Joon-ho",
+        "lead_actor": "Denzel Washington",
+        "release_year": 1986,
+        "rating": 9.9,
+        "duration_minutes": 170
+    },
+    {
+        "id": 57,
+        "title": "Movie 57",
+        "genres": [
+            "Sci-Fi",
+            "Adventure"
+        ],
+        "language": "Korean",
+        "director": "James Cameron",
+        "lead_actor": "Leonardo DiCaprio",
+        "release_year": 1984,
+        "rating": 5.3,
+        "duration_minutes": 126
+    },
+    {
+        "id": 58,
+        "title": "Movie 58",
+        "genres": [
+            "Sci-Fi",
+            "Adventure",
+            "Animation"
+        ],
+        "language": "Hindi",
+        "director": "Sofia Coppola",
+        "lead_actor": "Brad Pitt",
+        "release_year": 2024,
+        "rating": 2.7,
+        "duration_minutes": 129
+    },
+    {
+        "id": 59,
+        "title": "Movie 59",
+        "genres": [
+            "Adventure",
+            "Action"
+        ],
+        "language": "German",
+        "director": "Martin Scorsese",
+        "lead_actor": "Meryl Streep",
+        "release_year": 2017,
+        "rating": 5.5,
+        "duration_minutes": 155
+    },
+    {
+        "id": 60,
+        "title": "Movie 60",
+        "genres": [
+            "Animation"
+        ],
+        "language": "German",
+        "director": "Guillermo del Toro",
+        "lead_actor": "Leonardo DiCaprio",
+        "release_year": 2003,
+        "rating": 9.6,
+        "duration_minutes": 124
+    },
+    {
+        "id": 61,
+        "title": "Movie 61",
+        "genres": [
+            "Sci-Fi",
+            "Comedy",
+            "Adventure"
+        ],
+        "language": "Japanese",
+        "director": "Guillermo del Toro",
+        "lead_actor": "Leonardo DiCaprio",
+        "release_year": 2021,
+        "rating": 1.6,
+        "duration_minutes": 83
+    },
+    {
+        "id": 62,
+        "title": "Movie 62",
+        "genres": [
+            "Drama",
+            "Comedy"
+        ],
+        "language": "Mandarin",
+        "director": "Guillermo del Toro",
+        "lead_actor": "Cate Blanchett",
+        "release_year": 1989,
+        "rating": 8.7,
+        "duration_minutes": 130
+    },
+    {
+        "id": 63,
+        "title": "Movie 63",
+        "genres": [
+            "Sci-Fi",
+            "Adventure",
+            "Romance"
+        ],
+        "language": "Mandarin",
+        "director": "Steven Spielberg",
+        "lead_actor": "Robert Downey Jr.",
+        "release_year": 1984,
+        "rating": 8.4,
+        "duration_minutes": 151
+    },
+    {
+        "id": 64,
+        "title": "Movie 64",
+        "genres": [
+            "Adventure",
+            "Animation"
+        ],
+        "language": "Italian",
+        "director": "Martin Scorsese",
+        "lead_actor": "Tom Hanks",
+        "release_year": 2007,
+        "rating": 5.3,
+        "duration_minutes": 151
+    },
+    {
+        "id": 65,
+        "title": "Movie 65",
+        "genres": [
+            "Horror"
+        ],
+        "language": "Russian",
+        "director": "Steven Spielberg",
+        "lead_actor": "Robert Downey Jr.",
+        "release_year": 2002,
+        "rating": 2.2,
+        "duration_minutes": 142
+    },
+    {
+        "id": 66,
+        "title": "Movie 66",
+        "genres": [
+            "Animation",
+            "Comedy",
+            "Sci-Fi"
+        ],
+        "language": "Mandarin",
+        "director": "Christopher Nolan",
+        "lead_actor": "Natalie Portman",
+        "release_year": 2017,
+        "rating": 2.8,
+        "duration_minutes": 172
+    },
+    {
+        "id": 67,
+        "title": "Movie 67",
+        "genres": [
+            "Adventure",
+            "Action"
+        ],
+        "language": "Mandarin",
+        "director": "Bong Joon-ho",
+        "lead_actor": "Leonardo DiCaprio",
+        "release_year": 1988,
+        "rating": 6.5,
+        "duration_minutes": 136
+    },
+    {
+        "id": 68,
+        "title": "Movie 68",
+        "genres": [
+            "Sci-Fi"
+        ],
+        "language": "Italian",
+        "director": "Bong Joon-ho",
+        "lead_actor": "Cate Blanchett",
+        "release_year": 2012,
+        "rating": 4.9,
+        "duration_minutes": 85
+    },
+    {
+        "id": 69,
+        "title": "Movie 69",
+        "genres": [
+            "Animation",
+            "Sci-Fi",
+            "Horror"
+        ],
+        "language": "Italian",
+        "director": "Greta Gerwig",
+        "lead_actor": "Meryl Streep",
+        "release_year": 2016,
+        "rating": 5.1,
+        "duration_minutes": 164
+    },
+    {
+        "id": 70,
+        "title": "Movie 70",
+        "genres": [
+            "Horror",
+            "Drama",
+            "Fantasy"
+        ],
+        "language": "English",
+        "director": "Martin Scorsese",
+        "lead_actor": "Robert Downey Jr.",
+        "release_year": 1995,
+        "rating": 4.5,
+        "duration_minutes": 92
+    },
+    {
+        "id": 71,
+        "title": "Movie 71",
+        "genres": [
+            "Animation",
+            "Comedy"
+        ],
+        "language": "Spanish",
+        "director": "Sofia Coppola",
+        "lead_actor": "Cate Blanchett",
+        "release_year": 1998,
+        "rating": 3.9,
+        "duration_minutes": 131
+    },
+    {
+        "id": 72,
+        "title": "Movie 72",
+        "genres": [
+            "Drama",
+            "Adventure"
+        ],
+        "language": "Spanish",
+        "director": "Quentin Tarantino",
+        "lead_actor": "Robert Downey Jr.",
+        "release_year": 2017,
+        "rating": 4.2,
+        "duration_minutes": 159
+    },
+    {
+        "id": 73,
+        "title": "Movie 73",
+        "genres": [
+            "Animation",
+            "Comedy",
+            "Action"
+        ],
+        "language": "French",
+        "director": "Guillermo del Toro",
+        "lead_actor": "Robert Downey Jr.",
+        "release_year": 1996,
+        "rating": 3.2,
+        "duration_minutes": 147
+    },
+    {
+        "id": 74,
+        "title": "Movie 74",
+        "genres": [
+            "Horror"
+        ],
+        "language": "Italian",
+        "director": "Christopher Nolan",
+        "lead_actor": "Natalie Portman",
+        "release_year": 1985,
+        "rating": 9.3,
+        "duration_minutes": 161
+    },
+    {
+        "id": 75,
+        "title": "Movie 75",
+        "genres": [
+            "Animation",
+            "Action",
+            "Fantasy"
+        ],
+        "language": "French",
+        "director": "Quentin Tarantino",
+        "lead_actor": "Robert Downey Jr.",
+        "release_year": 1980,
+        "rating": 4.2,
+        "duration_minutes": 118
+    },
+    {
+        "id": 76,
+        "title": "Movie 76",
+        "genres": [
+            "Action",
+            "Comedy"
+        ],
+        "language": "Hindi",
+        "director": "Guillermo del Toro",
+        "lead_actor": "Denzel Washington",
+        "release_year": 1999,
+        "rating": 3.6,
+        "duration_minutes": 172
+    },
+    {
+        "id": 77,
+        "title": "Movie 77",
+        "genres": [
+            "Horror"
+        ],
+        "language": "English",
+        "director": "Sofia Coppola",
+        "lead_actor": "Leonardo DiCaprio",
+        "release_year": 2021,
+        "rating": 9.9,
+        "duration_minutes": 179
+    },
+    {
+        "id": 78,
+        "title": "Movie 78",
+        "genres": [
+            "Fantasy",
+            "Drama",
+            "Romance"
+        ],
+        "language": "Korean",
+        "director": "Steven Spielberg",
+        "lead_actor": "Brad Pitt",
+        "release_year": 2019,
+        "rating": 3.9,
+        "duration_minutes": 117
+    },
+    {
+        "id": 79,
+        "title": "Movie 79",
+        "genres": [
+            "Action",
+            "Horror",
+            "Adventure"
+        ],
+        "language": "French",
+        "director": "Martin Scorsese",
+        "lead_actor": "Robert Downey Jr.",
+        "release_year": 2022,
+        "rating": 4.2,
+        "duration_minutes": 98
+    },
+    {
+        "id": 80,
+        "title": "Movie 80",
+        "genres": [
+            "Adventure",
+            "Animation",
+            "Action"
+        ],
+        "language": "Hindi",
+        "director": "Guillermo del Toro",
+        "lead_actor": "Cate Blanchett",
+        "release_year": 1997,
+        "rating": 9.2,
+        "duration_minutes": 90
+    },
+    {
+        "id": 81,
+        "title": "Movie 81",
+        "genres": [
+            "Sci-Fi",
+            "Drama"
+        ],
+        "language": "Hindi",
+        "director": "Sofia Coppola",
+        "lead_actor": "Meryl Streep",
+        "release_year": 2015,
+        "rating": 1.5,
+        "duration_minutes": 108
+    },
+    {
+        "id": 82,
+        "title": "Movie 82",
+        "genres": [
+            "Sci-Fi",
+            "Action",
+            "Fantasy"
+        ],
+        "language": "Hindi",
+        "director": "James Cameron",
+        "lead_actor": "Brad Pitt",
+        "release_year": 2012,
+        "rating": 9.5,
+        "duration_minutes": 86
+    },
+    {
+        "id": 83,
+        "title": "Movie 83",
+        "genres": [
+            "Romance",
+            "Adventure",
+            "Horror"
+        ],
+        "language": "Hindi",
+        "director": "Martin Scorsese",
+        "lead_actor": "Natalie Portman",
+        "release_year": 1996,
+        "rating": 4.5,
+        "duration_minutes": 173
+    },
+    {
+        "id": 84,
+        "title": "Movie 84",
+        "genres": [
+            "Comedy"
+        ],
+        "language": "Korean",
+        "director": "James Cameron",
+        "lead_actor": "Meryl Streep",
+        "release_year": 1991,
+        "rating": 7.5,
+        "duration_minutes": 128
+    },
+    {
+        "id": 85,
+        "title": "Movie 85",
+        "genres": [
+            "Adventure",
+            "Thriller",
+            "Horror"
+        ],
+        "language": "German",
+        "director": "Guillermo del Toro",
+        "lead_actor": "Brad Pitt",
+        "release_year": 1982,
+        "rating": 3.0,
+        "duration_minutes": 176
+    },
+    {
+        "id": 86,
+        "title": "Movie 86",
+        "genres": [
+            "Romance",
+            "Sci-Fi",
+            "Fantasy"
+        ],
+        "language": "German",
+        "director": "Christopher Nolan",
+        "lead_actor": "Meryl Streep",
+        "release_year": 1992,
+        "rating": 6.8,
+        "duration_minutes": 155
+    },
+    {
+        "id": 87,
+        "title": "Movie 87",
+        "genres": [
+            "Thriller",
+            "Adventure",
+            "Action"
+        ],
+        "language": "English",
+        "director": "Bong Joon-ho",
+        "lead_actor": "Natalie Portman",
+        "release_year": 1991,
+        "rating": 4.3,
+        "duration_minutes": 132
+    },
+    {
+        "id": 88,
+        "title": "Movie 88",
+        "genres": [
+            "Thriller",
+            "Romance"
+        ],
+        "language": "Mandarin",
+        "director": "Hayao Miyazaki",
+        "lead_actor": "Natalie Portman",
+        "release_year": 2013,
+        "rating": 1.5,
+        "duration_minutes": 143
+    },
+    {
+        "id": 89,
+        "title": "Movie 89",
+        "genres": [
+            "Fantasy",
+            "Action",
+            "Drama"
+        ],
+        "language": "Mandarin",
+        "director": "Greta Gerwig",
+        "lead_actor": "Meryl Streep",
+        "release_year": 1989,
+        "rating": 9.6,
+        "duration_minutes": 134
+    },
+    {
+        "id": 90,
+        "title": "Movie 90",
+        "genres": [
+            "Adventure"
+        ],
+        "language": "Italian",
+        "director": "Steven Spielberg",
+        "lead_actor": "Leonardo DiCaprio",
+        "release_year": 2025,
+        "rating": 1.3,
+        "duration_minutes": 152
+    },
+    {
+        "id": 91,
+        "title": "Movie 91",
+        "genres": [
+            "Adventure",
+            "Thriller"
+        ],
+        "language": "Hindi",
+        "director": "Quentin Tarantino",
+        "lead_actor": "Natalie Portman",
+        "release_year": 1986,
+        "rating": 1.6,
+        "duration_minutes": 154
+    },
+    {
+        "id": 92,
+        "title": "Movie 92",
+        "genres": [
+            "Animation",
+            "Comedy"
+        ],
+        "language": "Spanish",
+        "director": "Sofia Coppola",
+        "lead_actor": "Robert Downey Jr.",
+        "release_year": 1989,
+        "rating": 4.9,
+        "duration_minutes": 103
+    },
+    {
+        "id": 93,
+        "title": "Movie 93",
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "language": "German",
+        "director": "Sofia Coppola",
+        "lead_actor": "Leonardo DiCaprio",
+        "release_year": 2021,
+        "rating": 5.2,
+        "duration_minutes": 97
+    },
+    {
+        "id": 94,
+        "title": "Movie 94",
+        "genres": [
+            "Animation",
+            "Horror"
+        ],
+        "language": "Japanese",
+        "director": "James Cameron",
+        "lead_actor": "Natalie Portman",
+        "release_year": 2024,
+        "rating": 3.5,
+        "duration_minutes": 93
+    },
+    {
+        "id": 95,
+        "title": "Movie 95",
+        "genres": [
+            "Sci-Fi"
+        ],
+        "language": "Russian",
+        "director": "Sofia Coppola",
+        "lead_actor": "Leonardo DiCaprio",
+        "release_year": 2002,
+        "rating": 4.8,
+        "duration_minutes": 82
+    },
+    {
+        "id": 96,
+        "title": "Movie 96",
+        "genres": [
+            "Comedy",
+            "Fantasy",
+            "Action"
+        ],
+        "language": "French",
+        "director": "James Cameron",
+        "lead_actor": "Cate Blanchett",
+        "release_year": 1985,
+        "rating": 6.6,
+        "duration_minutes": 157
+    },
+    {
+        "id": 97,
+        "title": "Movie 97",
+        "genres": [
+            "Romance"
+        ],
+        "language": "Mandarin",
+        "director": "Steven Spielberg",
+        "lead_actor": "Cate Blanchett",
+        "release_year": 2001,
+        "rating": 8.4,
+        "duration_minutes": 172
+    },
+    {
+        "id": 98,
+        "title": "Movie 98",
+        "genres": [
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "language": "Hindi",
+        "director": "Bong Joon-ho",
+        "lead_actor": "Scarlett Johansson",
+        "release_year": 2000,
+        "rating": 1.8,
+        "duration_minutes": 178
+    },
+    {
+        "id": 99,
+        "title": "Movie 99",
+        "genres": [
+            "Animation",
+            "Action",
+            "Comedy"
+        ],
+        "language": "Russian",
+        "director": "Martin Scorsese",
+        "lead_actor": "Brad Pitt",
+        "release_year": 2016,
+        "rating": 8.2,
+        "duration_minutes": 116
+    },
+    {
+        "id": 100,
+        "title": "Movie 100",
+        "genres": [
+            "Adventure",
+            "Horror"
+        ],
+        "language": "Mandarin",
+        "director": "Christopher Nolan",
+        "lead_actor": "Natalie Portman",
+        "release_year": 1994,
+        "rating": 5.8,
+        "duration_minutes": 81
+    }
+]

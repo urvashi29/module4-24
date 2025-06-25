@@ -1,0 +1,27 @@
+Pagination
+db.Movies.find()
+db.Movies.find().limit(2)
+db.Movies.find({}, {id: 1, title: 1, _id: 0, genres: 1}).limit(2)
+db.Movies.find().skip(5).limit(1)
+
+indexing
+db.Movies.getIndexes()
+db.Movies.find({language: "Hindi"}).count()
+db.Movies.find({language: "Hindi"}).explain("executionStats")
+db.Movies.createIndex({language: 1})
+db.Movies.find({lead_actor: "Brad Pitt"}).explain("executionStats")
+db.Movies.find({lead_actor: "Brad Pitt", language: "Hindi"}).explain("executionStats")
+db.Movies.dropIndex("language_1")
+
+Aggregate
+db.Movies.aggregate([{$match: {release_year: 2015}}])
+db.Movies.aggregate([{$group: {_id: "$lead_actor",gen: {$push: "$genres"}}])
+db.Movies.aggregate([{$group: {_id: "$rating", countVal:{$sum: 1}}}])
+db.Movies.aggregate([{$match: {rating: 3.5}}, {$count: "total"}])
+db.Movies.aggregate([{$match: {language: "Hindi"}}, {$limit: 2}])
+db.Movies.aggregate([{$match: {title: "Movie 44"}}, {$unwind: "$genres"}])
+db.Movies.aggregate([{$match: {title: "Movie 45"}}, {$project: {_id: 1, genres: 1, language: 1}}])
+
+db.employees.aggregate([{$group: {_id: "$dept", totalSalary: {$count: "$salary"}}}, {$sort: {"_id"}}])
+db.employees.aggregate([{$match: {dept: "IT"}}, {$count: "$empId"}])
+
