@@ -1,5 +1,8 @@
 const express = require("express");
 const app = express();
+const uuid = require("uuid");
+
+// const employeeRoute = app.routes("/Employees") ;
 
 // to access any static resource, we use middleware
 app.use(express.static("public", { maxAge: 60000 })); //middleware
@@ -70,6 +73,21 @@ app.use((error, req, res, next) => {
   next();
 });
 
+// custom middleware to generate x-request-id
+app.use((req, res, next) => {
+  if (!req.headers["x-request-id"]) {
+    res.setHeader("x-request-id", uuid.v4());
+  }
+
+  next();
+});
+
+app.get("/employees", (req, res) => {
+  res.send("ok");
+});
+
 app.listen(3000, () => {
   console.log("running at 3000");
 });
+
+// We create seperate for folders for routes (employees, products, user, customers)
